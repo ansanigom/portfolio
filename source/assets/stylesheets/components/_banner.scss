@@ -1,7 +1,24 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  width: 100%;
+  height: 100vh;
+  background-image: image-url('score.png');
+  background-attachment: fixed;
+  background-color: #464646;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.filter {
+
+    filter: blur(2px) brightness(0.9) grayscale(50%);
+    position: absolute;
+    top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: -4px;
 }
 
 .banner h1 {

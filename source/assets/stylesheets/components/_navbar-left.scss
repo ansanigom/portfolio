@@ -6,6 +6,8 @@
   padding: 0;
   background-color: rgb(207, 207, 207);
   left: 0;
+  top: 0;
+  position: sticky;
 }
 .links {
   font-size: 20px;
@@ -19,5 +21,20 @@
 }
 
 .links{
+  text-align: center;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.navbar {
+  justify-content: center;
+  padding: 18px;
+}
+
+#name {
+  padding: 95px 0 60px 0;
   text-align: center;
 }
