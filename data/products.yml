@@ -3,9 +3,13 @@
   image: some_product.png
   url:
   tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
 
 - name: Stupid Coaching
   description: My first rails app created with Le Wagon
   image: noimage.png
   url: www.anju-stupid-coaching.herokuapp.com
-  tags: 
+  tags:
