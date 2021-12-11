@@ -1,0 +1,12 @@
+.project-container {
+  margin-left: 300px;
+  padding: 30px;
+  margin-bottom: 40px;
+
+  .box {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}

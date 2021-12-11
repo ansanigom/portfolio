@@ -6,4 +6,11 @@ body {
 a {
   text-decoration: none;
   color: $light-gray;
+  &:hover {
+  text-decoration: none;
+  color: $yellow;
+  }
+}
+ul {
+  display: list-item;
 }
