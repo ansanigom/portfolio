@@ -9,4 +9,12 @@
     top: 0;
     z-index: 1;
   }
+
+  .projects {
+    display: flex;
+  }
+
+  .project {
+    width: 50%;
+  }
 }
