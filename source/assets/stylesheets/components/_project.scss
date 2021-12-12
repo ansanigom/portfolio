@@ -5,16 +5,57 @@
 
   .box {
     padding: 10px;
-    position: sticky;
     top: 0;
     z-index: 1;
   }
 
-  .projects {
-    display: flex;
+  .products {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+  .works{
   }
 
-  .project {
-    width: 50%;
+  .title{
+    display: flex;
+  }
+  .descriptions {
+    width: 100%;
+  }
+  .description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .link {
+    align-self: center;
+    margin: 5px;
+    bottom: 0;
+
+  .fa {
+  color: $gray;
+  text-align: right;
+
+  &:hover {
+    color: $yellow;
+  }
+  }
+
+    p {
+      margin: 0 0 0 0;
+      padding: 0 10px 0 10px;
+    }
+  }
+  .not-active {
+    color: #AAA;
+  }
+
+  .intro {
+    i {
+      color: #AAA;
+      padding-right: 10px;
+    }
   }
 }

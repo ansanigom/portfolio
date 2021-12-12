@@ -1,34 +1,41 @@
 <h1 id="works" class="title" style="text-align: right;">Works</h1>
 <div class="project-container">
   <div class="box">
-  <div class="projects">
+    <div class="works">
       <% data.products.each do |product| %>
-    <div class="project">
-        <h2><%= product.name %></h2>
-        <% if product.url %>
-          <% link_to product.url, class: 'external-link', target: '_blank' do %>
-            <i class="fas fa-external-link-alt"></i>
-          <% end %>
-        <% else %>
-          <p>No link</p>
-        <% end %>
-        <div class="intros">
+        <div class="products">
           <div class="intro">
             <% if product.image %>
               <%= image_path(product.image) %>
             <% else %>
               <%= image_tag "noimage.png", class: "avatar-square", alt: "no image", class:"intro photo mr-4"%>
             <% end %>
-            <% product.tags.each do |tag| %>
-              <span><i class="<%= tag %>"></i></span>
-            <% end %>
           </div>
-          <div class="intro">
+          <div class="descriptions">
+            <div class="description">
+              <div class="name">
+                <h2><%= product.name %></h2>
+              </div>
+              <div class="link">
+                <% if product.url %>
+                  <% link_to product.url, target: '_blank' do %>
+                    <p><i class="fas fa-external-link-alt fa"></i></p>
+                  <% end %>
+                <% else %>
+                  <p class="link not-active"><i class="fas fa-external-link-alt"></i></p>
+                <% end %>
+              </div>
+            </div>
+            <div class="intro">
+              <% product.tags.each do |tag| %>
+                <span><i class="<%= tag %>"></i></span>
+              <% end %>
+            </div>
             <p><%= product.description %></p>
           </div>
         </div>
+      <% end %>
       </div>
-    <% end  %>
-    <div>
+    </div>
   </div>
 </div>
