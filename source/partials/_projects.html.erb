@@ -1,40 +1,41 @@
-<h1 id="works" class="title" style="text-align: right;">Works</h1>
-<div class="project-container">
-  <div class="box">
-    <div class="works">
-      <% data.products.each do |product| %>
-        <div class="products">
-          <div class="intro">
-            <% if product.image %>
-              <%= image_path(product.image) %>
-            <% else %>
-              <%= image_tag "noimage.png", class: "avatar-square", alt: "no image", class:"intro photo mr-4"%>
-            <% end %>
-          </div>
-          <div class="descriptions">
-            <div class="description">
-              <div class="name">
-                <h2><%= product.name %></h2>
-              </div>
-              <div class="link">
-                <% if product.url %>
-                  <% link_to product.url, target: '_blank' do %>
-                    <p><i class="fas fa-external-link-alt fa"></i></p>
-                  <% end %>
-                <% else %>
-                  <p class="link not-active"><i class="fas fa-external-link-alt"></i></p>
-                <% end %>
-              </div>
-            </div>
+<div class="project-all">
+  <h1 id="works" class="title" style="text-align: right;">Works</h1>
+  <div class="project-container">
+    <div class="box">
+      <div class="works">
+        <% data.products.each do |product| %>
+          <div class="products">
             <div class="intro">
-              <% product.tags.each do |tag| %>
-                <span><i class="<%= tag %>"></i></span>
+              <% if product.image %>
+                <%= image_path(product.image) %>
+              <% else %>
+                <%= image_tag "noimage.png", class: "avatar-square", alt: "no image", class:"intro photo mr-4"%>
               <% end %>
             </div>
-            <p><%= product.description %></p>
+            <div class="descriptions">
+              <div class="description">
+                <div class="name">
+                  <h2><%= product.name %></h2>
+                </div>
+                <div class="link">
+                  <% if product.url %>
+                    <% link_to product.url, target: '_blank' do %>
+                      <p><i class="fas fa-external-link-alt fa"></i></p>
+                    <% end %>
+                  <% else %>
+                    <p class="link not-active"><i class="fas fa-external-link-alt"></i></p>
+                  <% end %>
+                </div>
+              </div>
+              <div class="intro">
+                <% product.tags.each do |tag| %>
+                  <span><i class="<%= tag %>"></i></span>
+                <% end %>
+              </div>
+              <p><%= product.description %></p>
+            </div>
           </div>
-        </div>
-      <% end %>
+        <% end %>
       </div>
     </div>
   </div>

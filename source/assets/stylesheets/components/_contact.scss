@@ -1,0 +1,30 @@
+
+  .footer-image {
+  background-image: image-url('footprint.jpg');
+   background-position: center center;
+   background-size: cover;
+   object-fit: cover;
+  }
+
+#contact.title {
+  padding: 30px 100px 20px 0;
+  padding-left: 300px;
+  top: 0;
+  position: sticky;
+  background-color: #ebebeb00;
+  z-index: 3;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  margin-left: 300px;
+  padding-top: 400px;
+  padding-bottom: 250px;
+  text-align: center;
+  text-align: -webkit-center;
+
+  .form {
+    width: 60%;
+  }
+}
