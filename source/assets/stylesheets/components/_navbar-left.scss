@@ -22,9 +22,11 @@
   font-size: 20px;
   a {
   color: $gray;
+  padding: 4px;
 
   &:hover {
     color: $yellow;
+    transition: 0.3s;
   }
   }
 }
@@ -40,7 +42,7 @@
 
 .navbar {
   justify-content: center;
-  padding: 16px;
+  padding: 12px;
 }
 
 #name {

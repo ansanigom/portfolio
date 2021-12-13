@@ -36,18 +36,33 @@
   .form {
     width: 90%;
     color: $gray;
-    text-align: left;
+    text-align: center;
 
     .input {
       background-color: rgba(255, 255, 255, 0.253);
       border: rgba(255, 255, 255, 0.253);
       color: $gray;
       font-size: 24px;
+      text-align: left;
     }
 
     h4 {
       text-align: left;
       font-size: 20px;
     }
+  }
+  .send {
+    background-color: $gray;
+    border: $gray;
+    color: $light-gray;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 7px 35px;;
+
+    &:hover {
+      transition: 0.3s;
+      background-color: $yellow;
+    }
+
   }
 }
