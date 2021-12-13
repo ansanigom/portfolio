@@ -20,6 +20,8 @@
 }
 .links {
   font-size: 20px;
+  text-align: center;
+
   a {
   color: $gray;
   padding: 4px;
@@ -29,10 +31,6 @@
     transition: 0.3s;
   }
   }
-}
-
-.links{
-  text-align: center;
 
   ul {
     padding: 0;
@@ -48,4 +46,53 @@
 #name {
   padding: 80px 0 60px 0;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+
+  .container-sidebar {
+  box-shadow: 0px;
+  z-index: 100;
+  top: 0;
+  left:auto;
+  bottom: auto;
+  width: 100vw;
+}
+
+
+  .sidebar{
+    height: 120px;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.253);
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #name {
+    padding: 40px;
+    text-align: left;
+  }
+
+  .navbars {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .navbar {
+    padding: 12px;
+    text-align: center;
+
+    a {
+      font-size: 27px;
+    }
+}
+  .links {
+    align-self: center;
+  }
+
+  .navbar.sns {
+     display: none;
+   }
 }
