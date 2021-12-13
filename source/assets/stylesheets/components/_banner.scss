@@ -1,7 +1,7 @@
 .banner {
   background-size: cover;
   background-position: unset;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: image-url('beach.jpg');
   background-attachment: fixed;
@@ -41,4 +41,22 @@
   font-size: 36px;
   color: $light-gray;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 767px) {
+  .banner {
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 400px;
+  background-image: image-url('beach.jpg');
+  background-attachment: fixed;
+  background-color: #464646;
+
+  h1, p, h2 {
+    display: none
+  }
+}
 }
