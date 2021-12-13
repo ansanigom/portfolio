@@ -58,7 +58,7 @@
 - name: Stupid Coaching
   description: My first rails app created with Le Wagon
   image: stupid_coaching.png
-  url: http://www.anju-stupid-coaching.herokuapp.com
+  url: http://anju-stupid-coaching.herokuapp.com
   tags:
     - devicon-rails-plain
     - devicon-html5-plain-wordmark
