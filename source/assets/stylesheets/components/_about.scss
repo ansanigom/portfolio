@@ -1,4 +1,4 @@
-#about.title {
+.about-title {
   padding: 30px 100px 20px 0;
   top: 0;
   position: sticky;
@@ -19,6 +19,10 @@
 .intros {
   display: flex;
   padding-right: 50px;
+}
+
+div.intro {
+  margin-left: 30px;
 }
 
 .photo {
@@ -43,4 +47,70 @@ h3 {
   padding-bottom: 10px;
 }
 
+}
+
+@media only screen and (max-width: 767px) {
+  .about-title {
+  display: none;
+}
+
+  .about-container {
+  margin: 0;
+  padding: 0;
+
+  .box {
+    padding: 0;
+  }
+}
+
+
+
+.intros {
+  display: block;
+  padding-right: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.intro {
+  padding: 10px 50px;
+
+  h2 {
+    padding: 10px 0;
+  }
+}
+
+.photo.intro {
+  padding: 0px;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.473);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  margin-top : -100px;
+  content-visibility: auto;
+}
+
+div.intro {
+  margin-left: 0px;
+}
+
+.skills {
+  display: flex;
+}
+
+.skill {
+  width: 50%;
+  padding: 0px;
+  padding: 10px 50px;
+  margin: 0px;
+
+h3 {
+  padding-bottom: 10px;
+}
+}
 }
