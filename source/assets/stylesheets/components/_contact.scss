@@ -25,12 +25,30 @@
   text-align: center;
   text-align: -webkit-center;
 
-  .form {
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 40px;
     width: 60%;
+    padding: 80px 40px;
+    position: sticky;
+    top: 100px;
+  }
+
+  .form {
+    width: 90%;
+    color: $gray;
+    text-align: left;
 
     .input {
       background-color: rgba(255, 255, 255, 0.253);
       border: rgba(255, 255, 255, 0.253);
+      color: $gray;
+      font-size: 24px;
+    }
+
+    h4 {
+      text-align: left;
+      font-size: 20px;
     }
   }
 }
