@@ -1,3 +1,12 @@
+  .footer-image {
+  background-image: image-url('footprint.jpg');
+   background-position: center center;
+   background-size: cover;
+   object-fit: cover;
+   bottom: 0;
+  }
+
+
 #contact.title {
   padding: 30px 100px 20px 0;
   padding-left: 300px;
