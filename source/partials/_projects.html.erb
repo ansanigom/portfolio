@@ -7,7 +7,7 @@
           <div class="products">
             <div class="intro">
               <% if product.image %>
-                <%= image_path(product.image) %>
+                <%= image_tag (product.image), class: "avatar-square", alt: "no image", class:"intro photo mr-4" %>
               <% else %>
                 <%= image_tag "noimage.png", class: "avatar-square", alt: "no image", class:"intro photo mr-4"%>
               <% end %>
