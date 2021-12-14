@@ -17,6 +17,7 @@
   width: 100%;
   box-sizing: border-box;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: right;
 }
 
 .contact-container {
@@ -65,4 +66,60 @@
     }
 
   }
+}
+
+@media only screen and (max-width: 767px) {
+   .contact-title {
+    padding: 0;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-container {
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.253);
+    width: 100%;
+    padding: 30px;
+    display: inline-block;
+  }
+
+  .form {
+    color: $gray;
+    text-align: center;
+
+    .input {
+      background-color: rgba(255, 255, 255, 0.253);
+      border: rgba(255, 255, 255, 0.253);
+      color: $gray;
+      font-size: 24px;
+      text-align: left;
+    }
+
+    h4 {
+      text-align: left;
+      font-size: 20px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+  }
+  .send {
+    background-color: $gray;
+    border: $gray;
+    color: $light-gray;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 7px 35px;;
+
+    &:hover {
+      transition: 0.3s;
+      background-color: $yellow;
+    }
+
+  }
+}
+
 }

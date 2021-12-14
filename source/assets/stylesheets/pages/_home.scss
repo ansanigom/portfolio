@@ -19,3 +19,19 @@ a {
 ul {
   display: list-item;
 }
+
+.responsive-hider {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+.responsive-hider {
+  display:inline-block;
+  background-color: #ebebeb;
+  width: 100vw;
+  height: 90px;
+  top: 0;
+  position: sticky;
+}
+}
