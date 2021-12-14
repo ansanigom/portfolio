@@ -48,6 +48,14 @@
   text-align: center;
 }
 
+.nav-visible {
+  display: none;
+}
+
+.nav-hidden {
+  display: flex;
+}
+
 @media only screen and (max-width: 767px){
 
   .container-sidebar {
@@ -61,7 +69,7 @@
 
 
   .sidebar{
-    height: 100px;
+    height: 90px;
     width: 100vw;
     padding: 0px;
     margin: 0px;
@@ -96,5 +104,16 @@
 
   .navbar.sns {
      display: none;
+   }
+
+   li.nav-hidden {
+     display: none;
+   }
+
+   li.nav-visible {
+     display: flex;
+     i {
+     font-weight: 600;
+     }
    }
 }
