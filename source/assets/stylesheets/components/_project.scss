@@ -26,9 +26,6 @@
   padding-right: 50px;
 }
 
-  .works{
-  }
-
   .title{
     display: flex;
   }
@@ -110,6 +107,7 @@
   padding-right: 50px;
   margin: 0;
   padding: 0;
+  padding-bottom: 100px;
 }
 
     .title{
@@ -124,6 +122,12 @@
       width: 100%;
       padding: 15px 0 5px 0;
     }
+
+    .photo {
+      margin: 0;
+      height: 200px;
+      width: 294px;
+    }
   }
   .intro {
     padding: 0 0 5px 0;
@@ -132,7 +136,4 @@
     text-align: center;
   }
 
-  .photo {
-    margin: 0;
-  }
 }

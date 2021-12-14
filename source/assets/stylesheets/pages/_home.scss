@@ -24,11 +24,12 @@ ul {
   display: none;
 }
 
-.wrapper {
-  overflow: hidden;
-}
 
 @media only screen and (max-width: 767px) {
+
+  .wrapper {
+    overflow: hidden;
+  }
 
 .responsive-hider {
   display:inline-block;
