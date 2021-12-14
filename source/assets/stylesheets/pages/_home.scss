@@ -20,7 +20,7 @@ ul {
   display: list-item;
 }
 
-.responsive-hider {
+.hider {
   display: none;
 }
 
@@ -40,7 +40,7 @@ ul {
 }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 1024px) {
     .wrapper {
     overflow: hidden;
   }
