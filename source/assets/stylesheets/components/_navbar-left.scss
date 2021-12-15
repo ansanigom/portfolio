@@ -72,12 +72,17 @@
     width: 100vw;
     padding: 0px;
     margin: 0px;
-    background-color: rgba(43, 43, 43, 0.74);
+    background-color: rgba(43, 43, 43, 0.918);
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
+
+    .blur {
+      backdrop-filter: blur(5px);
+      z-index: -1;
+  }
+
   #name {
     padding: 40px;
     text-align: left;

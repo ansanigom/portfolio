@@ -10,21 +10,6 @@ const formSubmit = (event) => {
 
 form.addEventListener('submit', formSubmit);
 
-// position: sticky
-const stickyElem = document.querySelector('.hider');
-const currStickyPos = stickyElem.getBoundingClientRect().top + window.pageYOffset;
-
-window.onscroll = function () {
-  if (window.pageYOffset > currStickyPos) {
-    stickyElem.style.position = 'fixed';
-    stickyElem.style.top = '0px';
-    stickyElem.style.backgroundColor = 'rgb(43, 43, 43)';
-  } else {
-    stickyElem.style.position = 'relative';
-    stickyElem.style.top = 'initial';
-    stickyElem.style.backgroundColor = '#ebebeb';
-  }
-};
 
 // view more
 

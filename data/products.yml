@@ -11,9 +11,10 @@
     - devicon-heroku-original
 
 - name: Kid's Marketplace
-  description: A marketplace app for parents who want to rent and borrow toys.
+  description: A marketplace app for parents who want to rent and borrow toys.<br><strong><i>Features</i></strong><br>Storing uploaded images using cloudnary<br>Geocoding using Mapbox API<br>Bootstrap for quick design and forms<br>
+
   image:
-  url:
+  url: http://kids-marketplace.herokuapp.com
   tags:
     - devicon-rails-plain
     - devicon-html5-plain-wordmark
@@ -23,7 +24,8 @@
     - devicon-heroku-original
 
 - name: Watch List
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit dolores, consequuntur impedit non sapiente ipsa dolorem, officia perspiciatis architecto rerum? Nihil, quas molestiae! Harum recusandae iste adipisci necessitatibus nulla.
+  description: Three-model Rails app to be able to create lists in which you will save your favourite movies.
+
   image:
   url:
   tags:
@@ -35,7 +37,7 @@
     - devicon-heroku-original
 
 - name: yelp MVP
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit dolores, consequuntur impedit non sapiente ipsa dolorem, officia perspiciatis architecto rerum? Nihil, quas molestiae! Harum recusandae iste adipisci necessitatibus nulla.
+  description: Two-model Rails app with a restaurant and anonymous reviews.
   image:
   url:
   tags:
@@ -45,8 +47,18 @@
     - devicon-postgresql-plain
     - devicon-heroku-original
 
+- name: Task Magager
+  description: Simple task manager.
+  image:
+  url:
+  tags:
+    - devicon-rails-plain
+    - devicon-html5-plain-wordmark
+    - devicon-css3-plain-wordmark
+    - devicon-heroku-original
+
 - name: Lonest Word Game
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit dolores, consequuntur impedit non sapiente ipsa dolorem, officia perspiciatis architecto rerum? Nihil, quas molestiae! Harum recusandae iste adipisci necessitatibus nulla.
+  description: A familier game you can play.
   image:
   url:
   tags:
@@ -56,7 +68,7 @@
     - devicon-heroku-original
 
 - name: Stupid Coaching
-  description: My first rails app created with Le Wagon
+  description: My first rails app created with Le Wagon.
   image: stupid_coaching.png
   url: http://anju-stupid-coaching.herokuapp.com
   tags:
