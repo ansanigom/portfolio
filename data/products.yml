@@ -60,7 +60,7 @@
 - name: Lonest Word Game
   description: A familier game you can play.
   image:longest_word_game
-  url: http://anju-longest-word-game.herokuapp.com/
+  url: http://anju-longest-word-game.herokuapp.com
   tags:
     - devicon-rails-plain
     - devicon-html5-plain-wordmark
