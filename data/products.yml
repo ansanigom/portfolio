@@ -1,6 +1,6 @@
 - name: RaibuOn
   description: A web app designed to musicians to get supports and promote performances. <br>Designed with mobile use in mind. Desktop responsive. <br><strong><i>Features</i></strong> <br>Geocoding using Mapbox api <br>Rails MVC code structure with PostgreSQL relational database management system <br>Messaging functionality using Websocket and ActionCable. <br>Money transactions using stripe
-  image:
+  image: raibuon.png
   url: http://www.raibuon.com
   tags:
     - devicon-rails-plain
@@ -13,7 +13,7 @@
 - name: Kid's Marketplace
   description: A marketplace app for parents who want to rent and borrow toys.<br><strong><i>Features</i></strong><br>Storing uploaded images using cloudnary<br>Geocoding using Mapbox API<br>Bootstrap for quick design and forms<br>
 
-  image:
+  image: kids_marketplace.png
   url: http://kids-marketplace.herokuapp.com
   tags:
     - devicon-rails-plain
@@ -59,8 +59,8 @@
 
 - name: Lonest Word Game
   description: A familier game you can play.
-  image:
-  url:
+  image:longest_word_game
+  url: http://anju-longest-word-game.herokuapp.com/
   tags:
     - devicon-rails-plain
     - devicon-html5-plain-wordmark
