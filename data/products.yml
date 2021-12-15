@@ -1,7 +1,7 @@
 - name: RaibuOn
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit dolores, consequuntur impedit non sapiente ipsa dolorem, officia perspiciatis architecto rerum? Nihil, quas molestiae! Harum recusandae iste adipisci necessitatibus nulla.
+  description: A web app designed to musicians to get supports and promote performances. <br>Designed with mobile use in mind. Desktop responsive. <br><strong><i>Features</i></strong> <br>Geocoding using Mapbox api <br>Rails MVC code structure with PostgreSQL relational database management system <br>Messaging functionality using Websocket and ActionCable. <br>Money transactions using stripe
   image:
-  url:
+  url: http://www.raibuon.com
   tags:
     - devicon-rails-plain
     - devicon-html5-plain-wordmark
@@ -11,7 +11,7 @@
     - devicon-heroku-original
 
 - name: Kid's Marketplace
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit dolores, consequuntur impedit non sapiente ipsa dolorem, officia perspiciatis architecto rerum? Nihil, quas molestiae! Harum recusandae iste adipisci necessitatibus nulla.
+  description: A marketplace app for parents who want to rent and borrow toys.
   image:
   url:
   tags:
