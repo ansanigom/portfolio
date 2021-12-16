@@ -4,7 +4,7 @@
     <div class="box">
       <div class="works">
         <% data.products.each do |product| %>
-          <div class="products">
+          <div class="products" id="<%= product.id %>">
             <div class="product-img">
               <% if product.image %>
                 <%= image_tag (product.image), class:"avatar-square intro photo mr-4" %>
@@ -36,8 +36,8 @@
             </div>
           </div>
         <% end %>
-         <button type=button id="more-btn">View more</button>
-    <button type=button id="close-btn">Show less</button>
+        <div id="dots"></div>
+        <button onclick="myFunction()" id="myBtn" class="more-btn">View more</button>
       </div>
     </div>
   </div>
