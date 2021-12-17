@@ -12,22 +12,45 @@ form.addEventListener('submit', formSubmit);
 
 
 // view more
-function myFunction() {
-  const moreTextOne = document.getElementById("one");
-  const moreTextTwo = document.getElementById("two");
-  const btnText = document.getElementById("myBtn");
+const button = document.querySelector('#myBtn');
+let state = false;
+const moreTextOne = document.getElementById("one");
+const moreTextTwo = document.getElementById("two");
 
+function myFunction() {
   if (moreTextTwo.style.display === "none") {
     moreTextTwo.style.display = "inline";
-    btnText.innerHTML = "Read more";
+    button.innerHTML = "Read more";
   }
 
   if (moreTextOne.style.display === "none") {
     moreTextOne.style.display = "inline";
-    btnText.innerHTML = "Read more";
+    button.innerHTML = "Read more";
   } else {
     moreTextTwo.style.display = "none";
-    btnText.innerHTML = "Read less";
+    button.innerHTML = "Read less";
     moreTextTwo.style.display = "inline";
   }
 }
+function hide() {
+  if (moreTextTwo.style.display === "inline") {
+    moreTextTwo.style.display = "none";
+    button.innerHTML = "Read more";
+  }
+  if (moreTextOne.style.display === "inline") {
+    moreTextOne.style.display = "none";
+    button.innerHTML = "Read more";
+}
+}
+function displayHide() {
+  if (state === false) {
+    myFunction();
+    state = true;
+  }
+  else if (state === true) {
+    hide();
+    state = false;
+  }
+}
+
+button.addEventListener('click', displayHide);
