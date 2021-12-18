@@ -1,5 +1,5 @@
 - name: RaibuOn
-  id: zero
+  id: three
   description: A web app designed to musicians to get supports and promote performances. <br>Designed with mobile use in mind. Desktop responsive. <br><strong><i>Features</i></strong> <br>Geocoding using Mapbox api <br>Rails MVC code structure with PostgreSQL relational database management system <br>Messaging functionality using Websocket and ActionCable. <br>Money transactions using stripe
   image: raibuon.png
   url: http://www.raibuon.com
@@ -13,7 +13,7 @@
 
 - name: Kid's Marketplace
   description: A marketplace app for parents who want to rent and borrow toys.<br><strong><i>Features</i></strong><br>Storing uploaded images using cloudnary<br>Geocoding using Mapbox API<br>Bootstrap for quick design and forms<br>
-  id: one
+  id: two
   image: kids_marketplace.png
   url: http://kids-marketplace.herokuapp.com
   tags:
@@ -39,7 +39,7 @@
 
 - name: yelp MVP
   description: Two-model Rails app with a restaurant and anonymous reviews.
-  id: three
+  id: two
   image:
   url:
   tags:
@@ -51,7 +51,7 @@
 
 - name: Task Magager
   description: Simple task manager.
-  id: four
+  id: one
   image:
   url:
   tags:
@@ -62,7 +62,7 @@
 
 - name: Lonest Word Game
   description: A familier game you can play.
-  id: five
+  id: one
   image: longest_word_game.png
   url: http://anju-longest-word-game.herokuapp.com
   tags:
@@ -73,7 +73,7 @@
 
 - name: Stupid Coaching
   description: My first rails app created with Le Wagon.<br>If the message is I am going to work, the coach will answer Great!<br>If the message has a question mark ? at the end, the coach will answer Silly question, get dressed and go to work!<br>Otherwise the coach will answer I don't care, get dressed and go to work!
-  id: six
+  id: one
   image: stupid_coaching.png
   url: http://anju-stupid-coaching.herokuapp.com
   tags:

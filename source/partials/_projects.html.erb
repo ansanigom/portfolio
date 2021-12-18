@@ -4,7 +4,7 @@
     <div class="box">
       <div class="works">
         <% data.products.each do |product| %>
-          <div class="products" id="<%= product.id %>">
+          <div class="products <%= product.id %>">
             <div class="product-img">
               <% if product.image %>
                 <%= image_tag (product.image), class:"avatar-square intro photo mr-4" %>

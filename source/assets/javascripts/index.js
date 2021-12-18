@@ -10,36 +10,36 @@ const formSubmit = (event) => {
 
 form.addEventListener('submit', formSubmit);
 
-
 // view more
+
 const button = document.querySelector('#myBtn');
 let state = false;
-const moreTextOne = document.getElementById("one");
-const moreTextTwo = document.getElementById("two");
+const moreTextOne = document.querySelector('one');
+const moreTextTwo = document.querySelector('two');
 
 function myFunction() {
-  if (moreTextTwo.style.display === "none") {
-    moreTextTwo.style.display = "inline";
-    button.innerHTML = "Read more";
+  if (moreTextTwo.style.display === 'none') {
+    moreTextTwo.style.display = 'inline';
+    button.innerHTML = 'Read more';
   }
 
-  if (moreTextOne.style.display === "none") {
-    moreTextOne.style.display = "inline";
-    button.innerHTML = "Read more";
+  if (moreTextOne.style.display === 'none') {
+    moreTextOne.style.display = 'inline';
+    button.innerHTML = 'Read more';
   } else {
-    moreTextTwo.style.display = "none";
-    button.innerHTML = "Read less";
-    moreTextTwo.style.display = "inline";
+    moreTextTwo.style.display = 'none';
+    button.innerHTML = 'Read less';
+    moreTextTwo.style.display = 'inline';
   }
 }
 function hide() {
-  if (moreTextTwo.style.display === "inline") {
-    moreTextTwo.style.display = "none";
-    button.innerHTML = "Read more";
+  if (moreTextTwo.style.display === 'inline') {
+    moreTextTwo.style.display = 'none';
+    button.innerHTML = 'Read more';
   }
-  if (moreTextOne.style.display === "inline") {
-    moreTextOne.style.display = "none";
-    button.innerHTML = "Read more";
+  if (moreTextOne.style.display === 'inline') {
+    moreTextOne.style.display = 'none';
+    button.innerHTML = 'Read more';
 }
 }
 function displayHide() {
