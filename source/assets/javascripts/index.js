@@ -12,45 +12,45 @@ form.addEventListener('submit', formSubmit);
 
 // view more
 
-const button = document.querySelector('#myBtn');
-let state = false;
-const moreTextOne = document.querySelector('one');
-const moreTextTwo = document.querySelector('two');
+// const button = document.querySelector('#myBtn');
+// let state = false;
+// const moreTextOne = document.querySelector('one');
+// const moreTextTwo = document.querySelector('two');
 
-function myFunction() {
-  if (moreTextTwo.style.display === 'none') {
-    moreTextTwo.style.display = 'inline';
-    button.innerHTML = 'Read more';
-  }
+// function myFunction() {
+//   if (moreTextTwo.style.display === 'none') {
+//     moreTextTwo.style.display = 'inline';
+//     button.innerHTML = 'Read more';
+//   }
 
-  if (moreTextOne.style.display === 'none') {
-    moreTextOne.style.display = 'inline';
-    button.innerHTML = 'Read more';
-  } else {
-    moreTextTwo.style.display = 'none';
-    button.innerHTML = 'Read less';
-    moreTextTwo.style.display = 'inline';
-  }
-}
-function hide() {
-  if (moreTextTwo.style.display === 'inline') {
-    moreTextTwo.style.display = 'none';
-    button.innerHTML = 'Read more';
-  }
-  if (moreTextOne.style.display === 'inline') {
-    moreTextOne.style.display = 'none';
-    button.innerHTML = 'Read more';
-}
-}
-function displayHide() {
-  if (state === false) {
-    myFunction();
-    state = true;
-  }
-  else if (state === true) {
-    hide();
-    state = false;
-  }
-}
+//   if (moreTextOne.style.display === 'none') {
+//     moreTextOne.style.display = 'inline';
+//     button.innerHTML = 'Read more';
+//   } else {
+//     moreTextTwo.style.display = 'none';
+//     button.innerHTML = 'Read less';
+//     moreTextTwo.style.display = 'inline';
+//   }
+// }
+// function hide() {
+//   if (moreTextTwo.style.display === 'inline') {
+//     moreTextTwo.style.display = 'none';
+//     button.innerHTML = 'Read more';
+//   }
+//   if (moreTextOne.style.display === 'inline') {
+//     moreTextOne.style.display = 'none';
+//     button.innerHTML = 'Read more';
+// }
+// }
+// function displayHide() {
+//   if (state === false) {
+//     myFunction();
+//     state = true;
+//   }
+//   else if (state === true) {
+//     hide();
+//     state = false;
+//   }
+// }
 
-button.addEventListener('click', displayHide);
+// button.addEventListener('click', displayHide);
