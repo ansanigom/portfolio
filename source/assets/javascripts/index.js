@@ -63,6 +63,7 @@ const viewLess = function () {
   for (let i = 3; i < products.length; i++) { products[i].classList.add('hide'); }
   btnViewLess.classList.add('hideViewLess');
   btnViewMore.classList.remove('hide');
+  document.getElementById('works').scrollIntoView();
 };
 const viewMore = function () {
   for (let i = 3; i < products.length; i++) {
