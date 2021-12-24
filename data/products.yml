@@ -1,5 +1,5 @@
 - name: RaibuOn
-  id: three
+  id: 1
   description: A web app designed to musicians to get supports and promote performances. <br>Designed with mobile use in mind. Desktop responsive. <br><strong><i>Features</i></strong> <br>Geocoding using Mapbox api <br>Rails MVC code structure with PostgreSQL relational database management system <br>Messaging functionality using Websocket and ActionCable. <br>Money transactions using stripe
   image: raibuon.png
   url: http://www.raibuon.com
@@ -13,7 +13,7 @@
 
 - name: Kid's Marketplace
   description: A marketplace app for parents who want to rent and borrow toys.<br><strong><i>Features</i></strong><br>Storing uploaded images using cloudnary<br>Geocoding using Mapbox API<br>Bootstrap for quick design and forms<br>
-  id: two
+  id: 2
   image: kids_marketplace.png
   url: http://kids-marketplace.herokuapp.com
   tags:
@@ -26,7 +26,7 @@
 
 - name: Watch List
   description: Three-model Rails app to be able to create lists in which you will save your favourite movies.
-  id: two
+  id: 3
   image:
   url:
   tags:
@@ -39,7 +39,7 @@
 
 - name: yelp MVP
   description: Two-model Rails app with a restaurant and anonymous reviews.
-  id: two
+  id: 4
   image:
   url:
   tags:
@@ -51,7 +51,7 @@
 
 - name: Task Magager
   description: Simple task manager.
-  id: one
+  id: 5
   image:
   url:
   tags:
@@ -62,7 +62,7 @@
 
 - name: Lonest Word Game
   description: A familier game you can play.
-  id: one
+  id: 6
   image: longest_word_game.png
   url: http://anju-longest-word-game.herokuapp.com
   tags:
@@ -73,7 +73,7 @@
 
 - name: Stupid Coaching
   description: My first rails app created with Le Wagon.<br>If the message is I am going to work, the coach will answer Great!<br>If the message has a question mark ? at the end, the coach will answer Silly question, get dressed and go to work!<br>Otherwise the coach will answer I don't care, get dressed and go to work!
-  id: one
+  id: 7
   image: stupid_coaching.png
   url: http://anju-stupid-coaching.herokuapp.com
   tags:
