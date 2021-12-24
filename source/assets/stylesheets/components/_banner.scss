@@ -6,8 +6,6 @@
   background-image: image-url('beach.jpg');
   background-attachment: fixed;
   background-color: #464646;
-  top: 0;
-  position: sticky;
   padding: 500px 20px;
   z-index: -1;
 }
@@ -29,19 +27,13 @@
   color: $light-gray;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 20px;
+}
 
-  a {
+.banner a {
   &:hover {
     color: $gray;
     transition: 0.3s;
   }
-}
-}
-
-.banner h2 {
-  font-size: 36px;
-  color: $light-gray;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 @media only screen and (max-width: 767px) {
