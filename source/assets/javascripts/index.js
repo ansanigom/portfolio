@@ -59,11 +59,13 @@ const products = document.querySelectorAll('.products');
 const btnViewMore = document.querySelector('.viewMore');
 const btnViewLess = document.querySelector('.viewLess');
 
+
 const viewLess = function () {
   for (let i = 3; i < products.length; i++) { products[i].classList.add('hide'); }
   btnViewLess.classList.add('hideViewLess');
   btnViewMore.classList.remove('hide');
 };
+
 const viewMore = function () {
   for (let i = 3; i < products.length; i++) {
     products[i].classList.remove('hide');
