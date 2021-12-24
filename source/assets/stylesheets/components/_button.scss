@@ -1,0 +1,13 @@
+ .btn {
+    background-color: $gray;
+    border: $gray;
+    color: $light-gray;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 7px 35px;;
+
+    &:hover {
+      transition: 0.3s;
+      color: $yellow;
+    }
+  }
