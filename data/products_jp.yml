@@ -1,6 +1,6 @@
 - name: RaibuOn
   id: 1
-  description: ミュージシャンのための投げ銭アプリ。
+  description: ミュージシャンのための音楽プロモーションアプリ。ユーザーは近辺のストリートライブやバンドを検索でき、投げ銭をして応援ができます。<br>モバイル推奨。デスクトップ閲覧可。 <br><strong><i>特性</i></strong> <br>Mapbox APIを使用したジオコーディング<br>Rails MVCモデル/ PostgreSQLデーターベース<br>WebsocketとActionCableを使用したメッセージ機能<br>ストライプ経由での金銭の授受
   image: raibuon.png
   url: http://www.raibuon.com
   tags:
@@ -12,7 +12,7 @@
     - devicon-heroku-original
 
 - name: Kid's Marketplace
-  description: A marketplace app for parents who want to rent and borrow toys.<br><strong><i>Features</i></strong><br>Storing uploaded images using cloudnary<br>Geocoding using Mapbox API<br>Bootstrap for quick design and forms<br>
+  description: おもちゃを貸し借りしたいママ・パパのためのマーケットプレイスアプリ。<br><strong><i>特性</i></strong><br>Storing uploaded images using cloudnary<br>Geocoding using Mapbox API<br>Bootstrap for quick design and forms<br>
   id: 2
   image: kids_marketplace.png
   url: http://kids-marketplace.herokuapp.com
